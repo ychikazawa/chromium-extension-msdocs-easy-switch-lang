@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "MSDocs Easy Switch Lang",
+    "version": "1.0",
+    "description": "Easy switch lang button on msdocs for Chromium (Chrome and Edge).",
+    "icons": {
+        "128": "icons/128.png"
+    },    
+    "action": {
+    },
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://docs.microsoft.com/*"
+    ],
+    "background": {
+        "service_worker": "scripts/background.js"
+    }
+}
