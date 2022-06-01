@@ -4,7 +4,9 @@
     "version": "1.0",
     "description": "Easy switch lang button on msdocs for Chromium (Chrome and Edge).",
     "icons": {
-        "128": "icons/128.png"
+        "128": "icons/128.png",
+        "48": "icons/48.png",
+        "16": "icons/16.png"
     },    
     "action": {
     },
