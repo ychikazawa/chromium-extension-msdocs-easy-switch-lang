@@ -8,7 +8,7 @@ Are you an avid reader of Microsoft Docs eager to get it in English as well as i
 With this extension you can switch between your language and English in one click!
 <br>From the upper right Extensions button, display "MSDocs Easy Switch Lang" and click on it with [Microsoft Docs](https://docs.microsoft.com/en-us/) open.
 <br>This extension will work to switch between the UI language set in your browser and English.
-<br>If English is set as the UI language, your browser's list of allowed languages will appear in order.
+<br>If English is set as the UI language, your browser's list of preferred languages will appear in order.
 
 
 ## Example
