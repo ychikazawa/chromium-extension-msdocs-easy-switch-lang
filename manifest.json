@@ -3,6 +3,7 @@
     "name": "MSDocs Easy Switch Lang",
     "version": "1.0.1",
     "description": "Easy switch lang button on msdocs for Microsoft Edge.",
+    "default_locale": "en",
     "icons": {
         "128": "icons/128.png",
         "48": "icons/48.png",
