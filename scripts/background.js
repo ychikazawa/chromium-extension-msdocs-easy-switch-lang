@@ -1,5 +1,3 @@
-var langIndex = 0;
-
 /***
  * Switch the language of the page
  */
@@ -12,6 +10,7 @@ chrome.action.onClicked.addListener(function(tab) {
         if (uiLang == "en-US") {
             // If the current language is English, switch to AcceptLanguages in order.
             chrome.i18n.getAcceptLanguages(function(langs) {
+                var langIndex = langs.findIndex(lang => currentLang.includes(lang));
                 langIndex = langIndex+1 < langs.length ? langIndex+1 : 0;
                 newLang = langs[langIndex];
                 console.log(langIndex + ": " + newLang);
