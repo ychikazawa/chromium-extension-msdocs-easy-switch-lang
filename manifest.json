@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "MSDocs Easy Switch Lang",
-    "version": "1.0",
-    "description": "Easy switch lang button on msdocs for Chromium (Chrome and Edge).",
+    "version": "1.0.1",
+    "description": "Easy switch lang button on msdocs for Microsoft Edge.",
     "icons": {
         "128": "icons/128.png",
         "48": "icons/48.png",
