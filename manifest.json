@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "MSDocs Easy Switch Lang",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Easy switch lang button on msdocs for Microsoft Edge.",
     "default_locale": "en",
     "icons": {
@@ -16,7 +16,9 @@
         "tabs"
     ],
     "host_permissions": [
-        "https://docs.microsoft.com/*"
+        "https://docs.microsoft.com/*",
+        "https://learn.microsoft.com/*",
+        "https://support.microsoft.com/*"
     ],
     "background": {
         "service_worker": "scripts/background.js"

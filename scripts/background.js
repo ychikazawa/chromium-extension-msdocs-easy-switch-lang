@@ -2,7 +2,9 @@
  * Switch the language of the page
  */
 chrome.action.onClicked.addListener(function(tab) {
-    if (tab.url.includes("https://docs.microsoft.com/")) {
+    if (tab.url.includes("https://docs.microsoft.com/")
+     || tab.url.includes("https://learn.microsoft.com/")
+     || tab.url.includes("https://support.microsoft.com/")) {
         var currentLang = tab.url.split("/")[3];  // ja-jp, en-us
         var uiLang = chrome.i18n.getUILanguage();  // ja, en-us
         
